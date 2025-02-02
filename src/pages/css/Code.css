@@ -1,0 +1,113 @@
+/* General container styles */
+
+.user {
+  padding: 10px 10px;
+  font-weight: 800;
+  font-size: 2rem;
+}
+.api-key-display {
+  padding: 0px 10px;
+}
+
+.code-container {
+  max-width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons for the popular questions */
+.questions-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.question-button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.question-button:hover {
+  background-color: #0056b3;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 85vh;
+  overflow-y: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 100%;
+  overflow-y: auto; /* This will make the messages scrollable */
+}
+
+
+.message {
+  max-width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.message.bot {
+  align-self: flex-start;
+  background-color: #f1f1f1;
+  color: #333;
+  margin: 5px 0px;
+}
+
+.message.user {
+  align-self: flex-end;
+  background-color: #007BFF;
+  color: white;
+  margin: 0px 5px;
+}
+
+/* Input field and send button */
+.input-form {
+  display: flex;
+  gap: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.send-button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}

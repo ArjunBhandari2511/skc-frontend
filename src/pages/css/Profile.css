@@ -1,0 +1,41 @@
+/* Profile Page */
+.profile-page {
+    text-align: center;
+}
+
+/* Profile Container */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 80px;
+}
+
+/* Profile Card */
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-card:hover {
+    transform: scale(1.1);
+}
+
+/* Larger Profile Avatar */
+.profile-card .p-avatar {
+    width: 180px !important;  /* Increased width */
+    height: 180px !important; /* Increased height */
+    font-size: 3rem; /* If no image, make initials bigger */
+}
+
+/* Profile Name */
+.profile-card h3 {
+    margin-top: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+}
