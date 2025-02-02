@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "chart.js": "^4.4.7",
-    "codemirror": "^6.0.1",
+    "codemirror": "^5.65.18",
     "primeicons": "^7.0.0",
     "primereact": "^10.9.2",
     "quill": "^2.0.3",
