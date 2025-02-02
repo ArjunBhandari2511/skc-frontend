@@ -9,7 +9,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <Router basename="/skc-frontend/">
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
